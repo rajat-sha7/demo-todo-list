@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap')
+
+*{
+    box-sizing:border-box;  
+    margin: 0;
+    padding: 0;
+}
+
+
+
+ul li a{
+    text-decoration: none;
+    color:white;
+}
+.header{
+    position:relative;
+    min-height: 60vh ;
+ 
+    background:url("/img/todo2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    
+}
+.container{
+    max-width: 1200px;
+    margin:auto;
+    width:90%
+}
+h2{
+    color:white;
+}
+nav{
+    min-height: 8vh;
+    align-items: center;
+    display:flex;
+    justify-content: space-between;
+        
+    
+}
+.nav-items{
+    width: 40%;
+    display: flex;
+      list-style-type: none;
+      justify-content: space-between;
+}
+.headline{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50% -50%)
+}
+.btn{
+    display:inline-block;
+    outline:none;
+    border:none;
+    cursor:pointer;
+
+}
+.btn-headline{
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+.section-todo{
+    margin-top: 5rem;
+    text-align: center;
+    
+}
+.form-todo{
+
+    /* border:2px solid; */
+    min-height: 5vh;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 1rem;
+}
+.form-todo input{
+    min-height:100%;
+}
+.form-todo input[type="text"]{
+    width:77%;
+    padding:0.8rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.form-todo input[type="submit"]{
+    width:20%;
+    background:153B44;
+    color:white;
+    font-weight: bold;
+}
+.todo-list{
+    text-decoration: none ;
+}
+.todo-list li{ 
+    padding:0.7rem;
+    background:rgb(1,16,23);
+    color:white;
+    margin-top:1rem;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.todo-btn{
+    /* min-height: 100%; */
+    padding:0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+.section-signup{
+    margin: 5rem auto;
+    text-align: left;
+    background:  #2d373e;
+    border-radius: 10px;
+}
+.signup-form{
+    max-width:800px;
+    width:95%;
+    /* text-align: center; */
+    margin:auto;
+}
+.signup-form label{
+    display: block;
+
+}
+.signup-form input{
+    display:block;
+    width:100%;
+    padding:0.5rem;
+}
+.form-group{
+    margin-top: 1rem;
+}
+.signup-form textarea{
+    width:100%;
+}
+.signup-btn{
+    background:rgb(20, 17, 17);
+    color:white;
+    padding:1rem 2rem;
+    display:block ;
+    margin: auto;
+    margin-top:1rem ;
+}
